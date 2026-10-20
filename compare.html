@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сравнение игр — Настолки</title>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">
+                <img src="images/logo.svg" alt="Логотип Настолки" width="40" height="40">
+                <span>Настолки</span>
+            </a>
+            <nav class="main-nav" aria-label="Основное меню">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="compare.html">Сравнение</a></li>
+                    <li><a href="about.html">О проекте</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-head">
+            <div class="container">
+                <h1>Сравнение игр</h1>
+                <p>Характеристики выбранных игр в одной таблице — так проще выбрать подходящую.</p>
+            </div>
+        </section>
+
+        <div class="compare">
+            <div class="container">
+
+                <div class="compare-scroll">
+                    <table class="compare-table">
+                        <caption class="visually-hidden">Сравнение настольных игр по характеристикам</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Характеристика</th>
+                                <th scope="col">Каркассон</th>
+                                <th scope="col">Колонизаторы</th>
+                                <th scope="col">Диксит</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Изображение</th>
+                                <td><img src="images/games/carcassonne.jpg" alt="Каркассон"></td>
+                                <td><img src="images/games/colonizers.jpg" alt="Колонизаторы"></td>
+                                <td><img src="images/games/dixit.jpg" alt="Диксит"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Число игроков</th>
+                                <td>2 – 5</td>
+                                <td>3 – 4</td>
+                                <td>3 – 6</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Длительность</th>
+                                <td>30 – 45 мин</td>
+                                <td>60 – 90 мин</td>
+                                <td>30 мин</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Возраст</th>
+                                <td>7+</td>
+                                <td>10+</td>
+                                <td>8+</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Жанр</th>
+                                <td>Стратегия</td>
+                                <td>Стратегия</td>
+                                <td>Ассоциации</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Издатель</th>
+                                <td>Hobby World</td>
+                                <td>Hobby World</td>
+                                <td>Hobby World</td>
+                            </tr>
+                            <tr class="compare-price">
+                                <th scope="row">Цена</th>
+                                <td>1 990 ₽</td>
+                                <td>2 490 ₽</td>
+                                <td>2 290 ₽</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <th scope="row">Действие</th>
+                                <td>
+                                    <button type="button" class="btn-remove" aria-label="Убрать Каркассон из сравнения">
+                                        Убрать
+                                    </button>
+                                </td>
+                                <td>
+                                    <button type="button" class="btn-remove" aria-label="Убрать Колонизаторы из сравнения">
+                                        Убрать
+                                    </button>
+                                </td>
+                                <td>
+                                    <button type="button" class="btn-remove" aria-label="Убрать Диксит из сравнения">
+                                        Убрать
+                                    </button>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p class="copyright">© 2026 Настолки. Учебный проект.</p>
+            <p class="slogan">Настольные игры для любой компании.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

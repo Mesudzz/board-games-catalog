@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог настольных игр — Настолки</title>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">
+                <img src="images/logo.svg" alt="Логотип Настолки" width="40" height="40">
+                <span>Настолки</span>
+            </a>
+            <nav class="main-nav" aria-label="Основное меню">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="compare.html">Сравнение</a></li>
+                    <li><a href="about.html">О проекте</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-head">
+            <div class="container">
+                <h1>Каталог настольных игр</h1>
+                <p>Игры на любой вкус. Используйте фильтры, чтобы подобрать игру под вашу компанию.</p>
+            </div>
+        </section>
+
+        <div class="catalog">
+            <div class="container">
+
+                <!-- Фильтры и сортировка -->
+                <form class="filters" aria-label="Фильтры каталога">
+                    <div class="filter-group">
+                        <label for="players">Число игроков</label>
+                        <select id="players" name="players">
+                            <option value="">Любое</option>
+                            <option value="2">2</option>
+                            <option value="4">4</option>
+                            <option value="6">6</option>
+                            <option value="8">8 и более</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-group">
+                        <label for="duration">Длительность</label>
+                        <select id="duration" name="duration">
+                            <option value="">Любая</option>
+                            <option value="short">до 30 мин</option>
+                            <option value="medium">30–60 мин</option>
+                            <option value="long">более 60 мин</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-group">
+                        <label for="age">Возраст</label>
+                        <select id="age" name="age">
+                            <option value="">Любой</option>
+                            <option value="6">6+</option>
+                            <option value="10">10+</option>
+                            <option value="12">12+</option>
+                            <option value="18">18+</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-group">
+                        <label for="sort">Сортировка</label>
+                        <select id="sort" name="sort">
+                            <option value="default">По умолчанию</option>
+                            <option value="price-asc">Сначала дешёвые</option>
+                            <option value="price-desc">Сначала дорогие</option>
+                            <option value="name">По названию</option>
+                        </select>
+                    </div>
+                </form>
+
+                <!-- Сетка игр -->
+                <div class="cards">
+
+                    <article class="card">
+                        <a href="game.html" class="card-image">
+                            <img src="images/games/carcassonne.jpg" alt="Настольная игра Каркассон">
+                        </a>
+                        <h2><a href="game.html">Каркассон</a></h2>
+                        <p>2 – 5 чел · 30 – 45 мин<span class="age"> · 7+</span></p>
+                        <p class="price">1 990 ₽</p>
+                    </article>
+
+                    <article class="card">
+                        <a href="game.html" class="card-image">
+                            <img src="images/games/colonizers.jpg" alt="Настольная игра Колонизаторы">
+                        </a>
+                        <h2><a href="game.html">Колонизаторы</a></h2>
+                        <p>3 – 4 чел · 60 – 90 мин<span class="age"> · 10+</span></p>
+                        <p class="price">2 490 ₽</p>
+                    </article>
+
+                    <article class="card">
+                        <a href="game.html" class="card-image">
+                            <img src="images/games/dixit.jpg" alt="Настольная игра Диксит">
+                        </a>
+                        <h2><a href="game.html">Диксит</a></h2>
+                        <p>3 – 6 чел · 30 мин<span class="age"> · 8+</span></p>
+                        <p class="price">2 290 ₽</p>
+                    </article>
+
+                    <article class="card">
+                        <a href="game.html" class="card-image">
+                            <img src="images/games/munchkin.jpg" alt="Настольная игра Манчкин">
+                        </a>
+                        <h2><a href="game.html">Манчкин</a></h2>
+                        <p>3 – 6 чел · 60 – 90 мин<span class="age"> · 10+</span></p>
+                        <p class="price">1 490 ₽</p>
+                    </article>
+
+                    <article class="card">
+                        <a href="game.html" class="card-image">
+                            <img src="images/games/imaginarium.jpg" alt="Настольная игра Имаджинариум">
+                        </a>
+                        <h2><a href="game.html">Имаджинариум</a></h2>
+                        <p>4 – 7 чел · 30 – 60 мин<span class="age"> · 12+</span></p>
+                        <p class="price">2 590 ₽</p>
+                    </article>
+
+                    <article class="card">
+                        <a href="game.html" class="card-image">
+                            <img src="images/games/ticket-to-ride.jpg" alt="Настольная игра Билет на поезд">
+                        </a>
+                        <h2><a href="game.html">Билет на поезд</a></h2>
+                        <p>2 – 5 чел · 30 – 60 мин<span class="age"> · 8+</span></p>
+                        <p class="price">3 490 ₽</p>
+                    </article>
+
+                    <article class="card">
+                        <a href="game.html" class="card-image">
+                            <img src="images/games/jenga.jpg" alt="Настольная игра Дженга">
+                        </a>
+                        <h2><a href="game.html">Дженга</a></h2>
+                        <p>1+ чел · 10 – 20 мин<span class="age"> · 6+</span></p>
+                        <p class="price">990 ₽</p>
+                    </article>
+
+                    <article class="card">
+                        <a href="game.html" class="card-image">
+                            <img src="images/games/uno.jpg" alt="Настольная игра Uno">
+                        </a>
+                        <h2><a href="game.html">Uno</a></h2>
+                        <p>2 – 10 чел · 15 – 30 мин<span class="age"> · 7+</span></p>
+                        <p class="price">590 ₽</p>
+                    </article>
+
+                    <article class="card">
+                        <a href="game.html" class="card-image">
+                            <img src="images/games/activity.jpg" alt="Настольная игра Активити">
+                        </a>
+                        <h2><a href="game.html">Активити</a></h2>
+                        <p>3 – 16 чел · 30 – 60 мин<span class="age"> · 12+</span></p>
+                        <p class="price">1 790 ₽</p>
+                    </article>
+
+                    <article class="card">
+                        <a href="game.html" class="card-image">
+                            <img src="images/games/scrabble.jpg" alt="Настольная игра Эрудит">
+                        </a>
+                        <h2><a href="game.html">Эрудит</a></h2>
+                        <p>2 – 4 чел · 40 – 60 мин<span class="age"> · 8+</span></p>
+                        <p class="price">1 290 ₽</p>
+                    </article>
+
+                    <article class="card">
+                        <a href="game.html" class="card-image">
+                            <img src="images/games/jackal.jpg" alt="Настольная игра Шакал">
+                        </a>
+                        <h2><a href="game.html">Шакал</a></h2>
+                        <p>2 – 4 чел · 60 – 90 мин<span class="age"> · 8+</span></p>
+                        <p class="price">2 190 ₽</p>
+                    </article>
+
+                    <article class="card">
+                        <a href="game.html" class="card-image">
+                            <img src="images/games/svintus.jpg" alt="Настольная игра Свинтус">
+                        </a>
+                        <h2><a href="game.html">Свинтус</a></h2>
+                        <p>2 – 8 чел · 15 – 30 мин<span class="age"> · 6+</span></p>
+                        <p class="price">690 ₽</p>
+                    </article>
+
+                    <article class="card">
+                        <a href="game.html" class="card-image">
+                            <img src="images/games/codenames.jpg" alt="Настольная игра Кодовые имена">
+                        </a>
+                        <h2><a href="game.html">Кодовые имена</a></h2>
+                        <p>4 – 8 чел · 15 – 30 мин<span class="age"> · 12+</span></p>
+                        <p class="price">1 690 ₽</p>
+                    </article>
+
+                    <article class="card">
+                        <a href="game.html" class="card-image">
+                            <img src="images/games/mafia.jpg" alt="Настольная игра Мафия">
+                        </a>
+                        <h2><a href="game.html">Мафия</a></h2>
+                        <p>6 – 16 чел · 30 – 60 мин<span class="age"> · 14+</span></p>
+                        <p class="price">890 ₽</p>
+                    </article>
+
+                    <article class="card">
+                        <a href="game.html" class="card-image">
+                            <img src="images/games/bunker.jpg" alt="Настольная игра Бункер">
+                        </a>
+                        <h2><a href="game.html">Бункер</a></h2>
+                        <p>4 – 16 чел · 30 – 60 мин<span class="age"> · 18+</span></p>
+                        <p class="price">1 890 ₽</p>
+                    </article>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p class="copyright">© 2026 Настолки. Учебный проект.</p>
+            <p class="slogan">Настольные игры для любой компании.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

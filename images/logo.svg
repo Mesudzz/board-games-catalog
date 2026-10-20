@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Логотип Настолки">
+    <!-- Фон-круг -->
+    <circle cx="32" cy="32" r="30" fill="#6b4f2a"/>
+
+    <!-- Кубик (повёрнутый квадрат) -->
+    <rect x="18" y="18" width="28" height="28" rx="6" fill="#f7f4ef" transform="rotate(12 32 32)"/>
+
+    <!-- Точки на кубике -->
+    <circle cx="26" cy="26" r="3" fill="#6b4f2a"/>
+    <circle cx="38" cy="26" r="3" fill="#6b4f2a"/>
+    <circle cx="26" cy="38" r="3" fill="#6b4f2a"/>
+    <circle cx="38" cy="38" r="3" fill="#6b4f2a"/>
+    <circle cx="32" cy="32" r="3" fill="#c89b3c"/>
+</svg>
